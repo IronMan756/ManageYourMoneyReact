@@ -1,0 +1,36 @@
+.footer { 
+	position: fixed;
+	left:0;
+	bottom:0;
+	background:#171f23;
+	height: 60px;
+	width: 100%;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+footer h2 {
+	margin:0;
+}
+.logFooter{
+		width:30px;
+		margin-top: 5px;	
+	}
+.slognFooter{
+	font-family:BigNoodleTitling ;
+	font-weight: 400;
+	font-size:18px;
+	color:#fbefee;
+}
+.footerWrap{
+	width:200px;
+	margin-left: 25px;
+}	
+	
+.logoFooterWrap{
+	width:220px;
+	display:flex;
+	justify-content:space-between; 
+	align-items: center;
+	margin-left: 16%;
+}

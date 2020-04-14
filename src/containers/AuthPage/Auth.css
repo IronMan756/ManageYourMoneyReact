@@ -1,0 +1,11 @@
+.mainWrap{
+	padding: 20px;
+}
+.SignIn p {
+	margin: 0;
+	color: red;
+}
+.inputStyle{
+	width:350px;
+	margin: 0 auto;
+}

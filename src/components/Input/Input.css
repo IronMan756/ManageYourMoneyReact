@@ -1,0 +1,51 @@
+input:disabled {
+    background-color: (255, 255, 255, 0.7);
+}
+*{
+    box-sizing:border-box;
+}
+ section, .inputStyle{
+	display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width:350px;
+} 
+.formControl,.formControlInvalid,
+.formControlValid,.select{
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 10px;
+    border: 1px solid #4cb1ca;
+    border-radius: 7px;
+    outline:none;
+    padding: 5px 10px;
+    color: black;
+}
+.formControlInvalid{
+    background: #fff;
+}
+.formControlValid{
+    background: #79f487;
+}
+.controlLabel,.controlLabel2{
+	color: whitesmoke ; 
+    margin-left: 5%;
+}
+.controlLabel::before{
+    content: "*";
+    color: red;
+    margin-right: 10px;
+}
+.controlLabel2::before{
+    content: " ";
+    margin-right: 18px;
+}
+.controlLabelerror{
+    color: red;
+    margin:0 30px;
+}
+.controlLabel2error{
+    color:red;
+    margin:0 30px;
+}

@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  background: #353535;
+}
+.app {
+    text-align: center;
+}
+.Layout{
+	padding: 20px;
+}

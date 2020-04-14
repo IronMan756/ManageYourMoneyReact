@@ -1,0 +1,14 @@
+.SignIn, .NewArrival{
+	width: 700px;
+	margin:0 auto;
+}
+.mainBlock{
+	margin:0 auto;
+	width:700px;
+	padding: 20px;
+}
+
+.InputElem{
+	width:350px;
+	margin:0 auto;
+}

@@ -1,0 +1,9 @@
+#preview{
+   width: 200px;
+   max-height: 200px;    
+}
+.previewWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,67 @@
+.compWrap{
+	width: 700px;
+	height: auto;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-direction: column;
+	align-items: center;
+}
+template{
+width:100%; 
+}
+.mainPart{
+	width: 700px;
+	min-height: 370px;
+	padding: 20px;
+	/*margin: 0 auto;*/
+	/*margin-top: 10px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mainPart p {
+	color: red;
+}
+.rightPart{
+	padding: 10px;
+	width:60%;
+}
+.leftPart{
+	margin:20px 0;
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+form{
+	width:100%;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.input{
+	width: 300px;
+	margin:0 auto;
+}
+.wrapButton{
+	margin-top: 10px;
+}
+
+.wrapButtonReg{
+	position: absolute;
+	top:520px;
+	left:600px;
+    border-radius: 5px;
+    background: #03738f;
+    border: 0;
+    color: whitesmoke;
+    padding: 5px 15px;
+    outline:none;
+    transition: all 0.3s linear;
+}
+.wrapButtonReg:hover{
+    cursor: pointer;
+    transform: scale(1.2)
+}

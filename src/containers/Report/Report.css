@@ -1,0 +1,42 @@
+
+.mainBlock ul{
+	padding: 0;
+	width:100%;
+	margin: 0 auto;
+}
+.mainBlock ul li{
+/*	width:660px;*/
+	margin: 0 auto;
+	list-style: none 
+}
+.listItem{
+	height: 40px;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	border:1px solid grey;
+	color:whitesmoke;	
+}
+.listItem h5{
+	margin: 0;
+}
+.cash{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	width:100px;
+	height: 40px;
+	margin:0 auto;
+}
+.cash p {
+	margin: 0;
+}
+.pocketName{
+	width: 150px;
+	height: 20px;
+}
+.Loading{
+	margin-top: 50px;
+	color: white;
+	font-size: 30px;
+}
